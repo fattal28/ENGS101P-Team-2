@@ -4935,7 +4935,8 @@ textarea.form-control {
     transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     left: 0;
     background-color: white;
-    margin-bottom:50px;
+    padding-bottom:50px;
+    
   }
 }
 @media screen and (min-width: 767px) {
