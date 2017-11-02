@@ -6634,9 +6634,9 @@ body.scrollable {
 .view {
   overflow: hidden;
   position: relative;
-  cursor: default; }
+  cursor: default;
+  background-image: url("/images/bg.jpg"); }
   .view .mask {
-    background-image: url("/images/bg.jpg");
     background-attachment: fixed; }
   .view .mask,
   .view .full-bg-img {
