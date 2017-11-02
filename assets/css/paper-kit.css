@@ -120,6 +120,8 @@ blockquote small {
 
 .text-info, .text-info:hover {
   color: #0063af !important;
+  size:"4";
+  line-height:2.0;
 }
 
 .text-success, .text-success:hover {
