@@ -1,77 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <<meta charset="utf-8">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Material Design Bootstrap</title>
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Infromation Security</title>
         <!-- Bootstrap core CSS -->
-        <link href="/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Material Design Bootstrap -->
-        <link href="/css/mdb.min.css" rel="stylesheet">
-        <!-- Your custom styles (optional) -->
-        <link href="/css/style.css" rel="stylesheet">
-
+        <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+        <!-- Custom fonts for this template -->
+        <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    
+        <!-- Plugin CSS -->
+        <link href="/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    
+        <!-- Custom styles for this template -->
+        <link href="/css/creative.min.css" rel="stylesheet">
     </head>
     <body>
-    <!--    navbar come here          -->
-    <nav class="navbar navbar-expand-md navbar-default">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="/index.html">Home</a>
-        <div class="collapse navbar-collapse" id="navbar-menu">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/history.html">History</a>
-                </li>
-                <div class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" href="#pk" role="button" aria-haspopup="true" aria-expanded="false">Key Research Themes</a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="/keyResearchThemes/virtualCurrencies.html">Virtual Currencies</a>
-                        <a class="dropdown-item" href="/keyResearchThemes/malware.html">Malware</a>
-                        <a class="dropdown-item" href="/keyResearchThemes/cryptography.html">Cryptography</a>
-                    </ul>
+    <!--    navbar come here  -->        
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="/index.html">Home</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/history.html">History</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Key Research Themes</a>
+                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink" style="position: absolute;">
+                            <a class="dropdown-item" href="/keyResearchThemes/virtualCurrencies.html">Virtual Currencies</a>
+                            <a class="dropdown-item" href="/keyResearchThemes/malware.html">Malware</a>
+                            <a class="dropdown-item" href="/keyResearchThemes/cryptography.html">Cryptography</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recent Activity</a>
+                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink" style="position: absolute;">
+                            <a class="dropdown-item" href="/recentActivity/projectsAndPublications.html">Projects and Publications</a>
+                            <a class="dropdown-item" href="/recentActivity/uclKeyResearchers.html">UCL Key Researchers</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/recentActivity/futureAndGoals.html">Future and Goals</a>
+                        </div>
+                    </li>
+                </ul>
                 </div>
-                <div class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton2" href="#pk" role="button" aria-haspopup="true" aria-expanded="false">Recent Activity</a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="/recentActivity/projectsAndPublications.html">Projects and Publications</a>
-                        <a class="dropdown-item" href="/recentActivity/uclKeyResearchers.html">UCL Key Researchers</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/recentActivity/futureAndGoals.html">Future and Goals</a>
-                    </ul>
-                </div>
-            </ul>
-            <img src="/images/UCL_Logo.png" alt="UCL Logo" style="width:260px;height:71px;float:right">
-        </div>
-    </nav>
+            </div>
+        </nav>
     <!-- end navbar  -->
 
 
 
-    <div class="wrapper">
-        <div id="Key Researchers" class="container">
-            <div"intro-title" class="title">
-                <h2>Key Researchers</h2>
-        <h3>George Danezis</h3>
-        <img src = "http://netfutures2016.eu/wp-content/uploads/2014/12/george-danezis.jpg">
-        <div>
-            His current research interests focus around secure communications, high-integrity systems to support privacy, smart grid privacy, peer-to-peer and social network security, as well as the application of machine learning techniques to security problems. He has published over 70 peer-reviewed scientific papers on these topics in international conferences and journals.
-        <h3>David Pym</h3>
-        <img src = "https://aticdn.s3-eu-west-1.amazonaws.com/2016/06/D.Pym_-1.jpg">
-        <div>
-            He is interested in developing research-based teaching methods and in breaking barriers between mathematical, engineering, and social science aspects of teaching in computing. His research also touches on pure logic and on developing logic-based methods as a mathematical modelling technology for reasoning about systems and behaviour. Prof. Pym believes this is particularly important for teaching information security and cybersecurity effectively.
-        <h3>Angela Sasse</h3>
-        <div>
-            A usability researcher by training, she started investigating the causes and effects of usability issues with security mechanisms in 1996.  In addition to studying specific mechanisms such as biometrics, and access control, her research group has developed human-centred frameworks that explain the role of security, privacy, identity and trust in human interactions with technology.  She is currently the Director of the multidisciplinary UK Research Institute for Science of Cyber Security (RISCS).
-        <h3>Emiliano de Cristofaro</h3>
-        <div>
-            Having joined UCL in 2013, Dr Cristofaro currently spends his time doing research in security and privacy enhancing technology. More specifically, he works on understanding and countering security issues via measurement studies and data-driven analysis, as well as tackling problems at the intersection of machine learning <a href=" ">(https://en.wikipedia.org/wiki/Machine_learning)</a> and security/privacy.
+    
+    <div id="Key Researchers" class="container">
+        <div"intro-title" class="title">
+            <h2>Key Researchers</h2>
+    <h3>George Danezis</h3>
+    <img src = "http://netfutures2016.eu/wp-content/uploads/2014/12/george-danezis.jpg">
+    <div>
+        His current research interests focus around secure communications, high-integrity systems to support privacy, smart grid privacy, peer-to-peer and social network security, as well as the application of machine learning techniques to security problems. He has published over 70 peer-reviewed scientific papers on these topics in international conferences and journals.
+    <h3>David Pym</h3>
+    <img src = "https://aticdn.s3-eu-west-1.amazonaws.com/2016/06/D.Pym_-1.jpg">
+    <div>
+        He is interested in developing research-based teaching methods and in breaking barriers between mathematical, engineering, and social science aspects of teaching in computing. His research also touches on pure logic and on developing logic-based methods as a mathematical modelling technology for reasoning about systems and behaviour. Prof. Pym believes this is particularly important for teaching information security and cybersecurity effectively.
+    <h3>Angela Sasse</h3>
+    <div>
+        A usability researcher by training, she started investigating the causes and effects of usability issues with security mechanisms in 1996.  In addition to studying specific mechanisms such as biometrics, and access control, her research group has developed human-centred frameworks that explain the role of security, privacy, identity and trust in human interactions with technology.  She is currently the Director of the multidisciplinary UK Research Institute for Science of Cyber Security (RISCS).
+    <h3>Emiliano de Cristofaro</h3>
+    <div>
+        Having joined UCL in 2013, Dr Cristofaro currently spends his time doing research in security and privacy enhancing technology. More specifically, he works on understanding and countering security issues via measurement studies and data-driven analysis, as well as tackling problems at the intersection of machine learning <a href=" ">(https://en.wikipedia.org/wiki/Machine_learning)</a> and security/privacy.
     </div>
 
 
@@ -82,12 +85,15 @@
 
 
     </body>
-    <!-- Core JS Files -->
-    <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="/js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="/js/mdb.min.js"></script>
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="/js/creative.min.js"></script>
 </html>
