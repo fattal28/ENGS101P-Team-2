@@ -55,18 +55,36 @@
     
     
     <div class="wrapper">
-        <div id="title" class="container">
+        <div id="cr-title" class="container">
             <h1>Cryptography</h1>
         </div>
-        <div id="what" class="container">
-            <div id="what-title" class="title">
+        <div id="cr-content" class="container">
+            <div id="cr-subtitle1" class="title">
                 <h2>What is cryptography?</h2>
             </div>
-            <div id="what-text" class="text-info">
-                The literal meaning of cryptography is just “secret writing”. [1] It is a science about securing messages transferred in communications and making sure they won’t fall into the wrong hands. <br/>
-                    
-                The way to do this is to use encryption, which is the process of converting original human-readable text (plaintext) into unintelligible text that is meaningless without decryption (ciphertext). The process of encryption and decryption is done using a “key”, which is usually a string that is only known to the sender and recipient. A series of mathematical operations are applied to the original text using the key, hence even if the message is intercepted during transmission, it wouldn’t mean anything useful to the third party as they don’t have the key.  
+            <div id="cr-text1" class="text-info">
+                The literal meaning of cryptography is just “secret writing”. <sup>[1]</sup> It is a science about securing messages transferred in communications and making sure they won’t fall into the wrong hands. <br/><br/>
+                The way to do this is to use encryption, which is the process of converting original human-readable text (plaintext) into unintelligible text that is meaningless without decryption (ciphertext). The process of encryption and decryption is done using a “key”, which is usually a string that is only known to the sender and recipient. A series of mathematical operations are applied to the original text using the key, hence even if the message is intercepted during transmission, it wouldn’t mean anything useful to the third party as they don’t have the key. <br/><br/> 
+                <img src="/images/cr1.png" class="img-responsive">
+                (One of the earliest encryptions done by shifting words. In this case, the key will be the number of shifting takes place) <sup>[2]</sup><br/><br/>
             </div>      
+            <div id="cr-subtitle2" class="title">
+                <h2>The importance of cryptography</h2>
+            </div>
+            <div id="cr-text2" class="text-info">
+                Cryptography is a crucial subject under information security and is related to many other areas such as authentication and network security. <br/><br/>
+                Nowadays, communications containing confidential information are mostly done through public networks(e.g. Internet), some of which may not have sufficient security protection. The information can be easily intercepted by experienced hackers, and can lead to further cybercrime. Even if the data transmission takes place within a private network, it is still not 100% safe due to external attackers or mistakes by internal staff. Cryptography acts as an additional layer of protection, which prevents the hackers making use of the data even if they attacked the transmission. <br/><br/>
+                <img src="/images/cr2.png" class="img-responsive">
+                (Massive data is flowing through unsecured network and can be intercepted at anytime)[5]<br/><br/>
+                Additionally, cryptography does not only encrypt the data to make sure it is not understandable by any third parties, but also ensures the integrity of data so that no data is corrupted or tampered with during transit. <sur>[3]</sur><br/><br/>
+            </div>
+            <div id="cr-subtitle3" class="title">
+                <h2>The purpose of cryptographic research</h2>
+            </div>
+            <div id="cr-text3" class="text-info">
+                The purpose of cryptography is not to come up with an encryption that is perfectly secure, but one that cannot be decoded within a reasonable amount of time. This is because an encryption with extremely complex algorithm tends to required a great amount of computational power and is impractical for daily communication. <br/><br/>
+                Unfortunately, calculating the exact computational power needed is very hard, and till today none of the practical encryptions has been proved to reach such security. Thus, the researchers in UCL, as well as other universities and organizations, are working hard on the development of new encryption methods that ensure both efficiency and security, and will certainly cause huge impacts on the society. <sup>[4]</sup><br/><br/>
+            </div>
         </div>
         <span style="display:block; height: 75px;"></span>
         <footer style="background:rgb(212, 212, 212)">
