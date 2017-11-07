@@ -38,7 +38,8 @@ h6 {
 p {
   font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  color: rgb(0 91 142) }
 
 .bg-primary {
   background-color: #F05F40 !important; }
